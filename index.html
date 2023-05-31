@@ -5,16 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tindog</title>
+    <!-- styles -->
     <link rel="stylesheet" href="index.css">
-</head>
+    <!-- typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
 <body>
     <header>
-        <figure><img src="/images/icon-profile.png" alt="profile"></figure>
-        <figure><img src="/images/logo.png" alt="Tingdog logo"></figure>
-        <figure><img src="/images/icon-chat.png" alt="chat"></figure>
+        <div class="icons"><img src="/images/icon-profile.png" alt="profile"></div>
+        <div class="icons logo"><img src="/images/logo.png" alt="Tingdog logo"></div>
+        <div class="icons"><img src="/images/icon-chat.png" alt="chat"></div>
     </header>
     <main>
-        <figure id="dog"></figure>
+        <div id="dog">
+            <div>
+                <h1>Teddy, 30</h1>
+                <p>How are you doin?</p>
+            </div>
+        </div>
     </main>
     <section class="reactions">
         <button id="dislike-btn"><img src="/images/icon-cross.png" alt="cross"></button>

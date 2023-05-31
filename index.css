@@ -6,7 +6,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    max-width: 375px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    color: #F8F8F8;
+}
 
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+main {
+    margin: 0 1rem;
+}
+h1 {
+    font-weight: 700;
+}
+p {
+    color: #B7B7B7;
+    font-weight: 400;
+}
+button {
+    border: none;
+    padding: 1.25rem;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px #B7B7B7;
+}
+
+/* Classes */
+.icons {
+    width: 10%;
+}
+.icons img {
+    width: 100%;
+}
+.logo {
+    width: 20%;
+}
+
+/* -------------------- 
+    Local Styles
+---------------------*/
+#dog {
+    height: 50vh;
+    background-image: url('images/dog-teddy.jpg');
+    background-size: cover;
+    background-repeat: none;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    align-items: end;
+}
+.reactions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem 1rem;
+}
+#like-btn:hover {
+    background-color: #DBFFF4;
+}
+#dislike-btn:hover {
+    background-color: #FFE7EF;
 }
