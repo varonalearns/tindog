@@ -53,7 +53,6 @@ button {
 ---------------------*/
 #dog {
     height: 50vh;
-    background-image: url('images/dog-teddy.jpg');
     background-size: cover;
     background-repeat: none;
     border-radius: 10px;
