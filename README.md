@@ -51,8 +51,8 @@ Happy Coding!
 
 ### Links
 
-- Solution URL: [Github Repo]()
-- Live Site URL: [Netlify Live Site]()
+- Solution URL: [Github Repo](https://github.com/varonalearns/tindog)
+- Live Site URL: [Netlify Live Site](https://tindog-evarona.netlify.app/)
 
 ## My process
 
@@ -64,9 +64,26 @@ Happy Coding!
 - Mobile-first workflow
 
 ### What I learned
+There was a lot that I learned here. For instance, I learned about how to remove and add HTML elements through JavaScript. I am particularly happy about the following code:
+
+``` javascript
+function likeBtn() {
+    document.getElementById("dog").insertAdjacentHTML('beforebegin', `
+        <div class="decision-img">
+            <img src="/images/badge-like.png" alt="liked">
+        </div>`)
+    reset()
+
+    setTimeout(()=>{
+        nextDog()
+    }, 750) 
+}
+```
+
+I used my understanding of HTML and JavaScript to find a solution to my issue on my own. That I am really proud about.
 
 ### Continued development
-
+In the future, I definitely want to add some more features to this project. Perhaps a dark-mode feature.
 
 ## Author
 
