@@ -60,6 +60,17 @@ button {
     display: flex;
     align-items: end;
 }
+.decision-img {
+    position: relative;
+    width: 43%;
+    rotate: -30deg;
+}
+.decision-img img {
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    width: 100%;
+}
 .reactions {
     display: flex;
     justify-content: space-evenly;
